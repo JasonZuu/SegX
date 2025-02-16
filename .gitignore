@@ -1,0 +1,10 @@
+data
+log/*
+medfair*
+
+__pycache__
+.idea
+*.pyc
+.vscode
+.DS_Store
+_segmentation
