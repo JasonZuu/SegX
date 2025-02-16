@@ -8,3 +8,4 @@ __pycache__
 .vscode
 .DS_Store
 _segmentation
+sh

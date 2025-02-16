@@ -17,22 +17,24 @@ SegX is a plug-and-play approach designed to enhance the interpretability of dee
 
 The SegX begins with the classification and XAI pipeline (green), where a medical image is processed by a classification model to generate predictions and an XAI method produces the original explanation map. Afterwards, the segmentation-based enhancement (blue) starts with a segmentation model that generates a clinical interests mask to align the XAI outputs with clinically significant regions using the SegX module, producing a refined SegX map.
 
-Here is a case showing the effectiveness of SegX in enhancing the interpretability of GradCAM on the ChestX-Det10 dataset.
+Here is an example demonstrating how SegX enhances the interpretability of GradCAM on the ChestX-Det10 dataset.
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="text-align: center;">
-    <img src="img/chestx_36223.png" alt="raw" style="width: 90%;">
-    <p style="margin-top: 5px; font-size: 14px;">(a) Raw Image</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="img/chestx_36223_gradcam.png" alt="GradCAM" style="width: 90%;">
-    <p style="margin-top: 5px; font-size: 14px;">(b) GradCAM</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="img/chestx_36223_segx_gradcam.png" alt="SegX-GradCAM" style="width: 90%;">
-    <p style="margin-top: 5px; font-size: 14px;">(c) SegX-GradCAM</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="img/chestx_36223.png" alt="raw" style="width: 90%;">
+      <p style="margin-top: 5px; font-size: 14px;">(a) Raw Image</p>
+    </td>
+    <td style="text-align: center;">
+      <img src="img/chestx_36223_gradcam.png" alt="GradCAM" style="width: 90%;">
+      <p style="margin-top: 5px; font-size: 14px;">(b) GradCAM</p>
+    </td>
+    <td style="text-align: center;">
+      <img src="img/chestx_36223_segx_gradcam.png" alt="SegX-GradCAM" style="width: 90%;">
+      <p style="margin-top: 5px; font-size: 14px;">(c) SegX-GradCAM</p>
+    </td>
+  </tr>
+</table>
 
 ## Getting Started
 
