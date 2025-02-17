@@ -6,7 +6,14 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Download the Data and Model Weights (Optional)](#download-the-data-and-model-weights-optional)
+    - [Start with SegX-GradCAM (Optinal)](#start-with-segx-gradcam-optinal)
   - [Usage](#usage)
+    - [Grid Search for The Best Hyperparameters (Optional)](#grid-search-for-the-best-hyperparameters-optional)
+    - [Train Your Model](#train-your-model)
+    - [Interpret with SegX](#interpret-with-segx)
   - [Contributing](#contributing)
   - [Contact](#contact)
 
@@ -57,7 +64,11 @@ pip install -r requirements.txt
 ```
 
 ### Download the Data and Model Weights (Optional)
+You can download the required data and model weights using the following Kaggle links:
++ [Data](https://www.kaggle.com/datasets/mingchengzhu/segx-used-datasets)
++ [Model Weights](https://www.kaggle.com/datasets/mingchengzhu/segx-model-weights)
 
+After downloading, place the files in the SegX directory and unzip `images.zip` and `masks.zip` for each dataset.
 
 ### Start with SegX-GradCAM (Optinal)
 If you have downloaded the Data and Model weights and put them in the working directory, you should be able to interpret your model with the SegX using
