@@ -122,9 +122,23 @@ Guidelines for contributing to the project.
 5. Create a new Pull Request
 
 
+## Citation
+If you use our work for you research, please cite it as follows:
+```bibtex
+@inproceedings{zhang2025segx,
+  title={SegX: Improving Interpretability of Clinical Image Diagnosis with Segmentation-based Enhancement},
+  author={Zhang, Yuhao and Zhu, Mingcheng and Luo, Zhiyao},
+  booktitle={AAAI Bridge Program on AI for Medicine and Healthcare},
+  pages={100--108},
+  year={2025},
+  organization={PMLR}
+}
+```
+
 ## Contact
 
 Provide contact information for further queries or support.
 
 - Email: yuhao_zhang@u.nus.edu
 - GitHub: [Yuhao Zhang](https://github.com/haozizizizi)
+
