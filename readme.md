@@ -30,9 +30,6 @@ Here is an example demonstrating how SegX enhances the interpretability of GradC
 ## Getting Started
 
 ### Prerequisites
-
-List all the prerequisites needed to run the project. This could include software, libraries, and any setup required.
-
 - Python 3.10+
 - PyTorch
 - Optuna (for hyperparameter search)
@@ -136,8 +133,6 @@ If you use our work for you research, please cite it as follows:
 ```
 
 ## Contact
-
-Provide contact information for further queries or support.
 
 - Email: yuhao_zhang@u.nus.edu
 - GitHub: [Yuhao Zhang](https://github.com/haozizizizi)
