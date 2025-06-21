@@ -3,7 +3,7 @@
 ## Introduction
 ![SegX Illustration](img/Method%20Overall.png) 
 
-SegX [[paper](https://arxiv.org/abs/2502.10296)] is a plug-and-play approach designed to enhance the interpretability of deep learning-based medical image analysis by aligning explanation maps with clinically relevant regions using segmentation models. 
+SegX [[paper](https://proceedings.mlr.press/v281/zhang25c.html)] is a plug-and-play approach designed to enhance the interpretability of deep learning-based medical image analysis by aligning explanation maps with clinically relevant regions using segmentation models. 
 
 The SegX begins with the classification and XAI pipeline (green), where a medical image is processed by a classification model to generate predictions and an XAI method produces the original explanation map. Afterwards, the segmentation-based enhancement (blue) starts with a segmentation model that generates a clinical interests mask to align the XAI outputs with clinically significant regions using the SegX module, producing a refined SegX map.
 
